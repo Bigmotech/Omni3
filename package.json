@@ -1,0 +1,20 @@
+{
+  "name": "omnibot3",
+  "version": "3.0.0",
+  "description": "Third Omni",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Momo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "ffmpeg": "0.0.4",
+    "opusscript": "0.0.7",
+    "path": "^0.12.7",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^0.29.7"
+  }
+}
