@@ -3,6 +3,9 @@ const Commando = require("discord.js-commando");
 const client = new Commando.Client({
     owner: '113474887049289728'
 });
+const fs = require('fs');
+const SERVERSPATH = './GuildsInfo/Servers.json'
+const SERVERS = fs.readFileSync(SERVERSPATH);
 const ytdl = require("ytdl-core");
 const Youtube = require("simple-youtube-api");
 const path = require('path');
@@ -11,7 +14,7 @@ const config = require('./config.json');
 
 
 const youtube = new Youtube(config.YToken);
-const PREFIX = "!"
+const PREFIX = "+"
  
 const queue = new Map();
 
@@ -157,6 +160,7 @@ client.on("message", async message=>{
         serverQueue.connection.dispatcher.end();
     }
     
+    
     return undefined;
 });
 
@@ -187,7 +191,8 @@ function play(guild, song){
 client.registry
     .registerDefaultTypes()
     .registerGroups([
-        ['music', 'Music Options']
+        ['music', 'Music Options'],
+        ['profile','Profile Mangament']
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
