@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 const Commando = require("discord.js-commando");
 const client = new Commando.Client({
-    owner: '113474887049289728'
+    owner: owner
 });
 const fs = require('fs');
 const SERVERSPATH = './GuildsInfo/Servers.json'
