@@ -1,21 +1,21 @@
 {
-  "456103149984546818": {
-    "113474887049289728": {
-      "name": "Bigmotech",
+  GUILDID: {
+    ID: {
+      "name": "placeholder",
       "ingame": true,
       "rules": [],
       "coins": 10
     },
-    "374722775568613387": {
-      "name": "Captian_Fish",
+    ID: {
+      "name": "placeholder2",
       "ingame": true,
       "rules": [],
       "coins": 10
     }
   },
-  "456550407901282304": {
-    "113474887049289728": {
-      "name": "Bigmotech",
+  GUILDID: {
+    ID: {
+      "name": "placeholder",
       "ingame": false,
       "rules": [],
       "coins": 10
